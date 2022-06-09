@@ -18,6 +18,9 @@ p{
 img{
     width: 100%;
 }
+a{
+    color: #fff;
+}
 
 .container{
     width: 90%;
@@ -317,4 +320,47 @@ li{
 }
 .portfolio-dec .cta:hover{
     color: #f75a8e;
+}
+@media (max-width:768px){
+    .home .home-content .text-2{
+        font-size: 55px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    li{
+        margin: 1rem 0;
+    }
+    .nav-link{
+        font-size: 1.7rem;
+    }
+    .about-heading h1{
+        font-size: 5rem;
+        margin-top: 4rem;
+    }
+    .section-heading h1{
+        font-size: 3rem;
+    }
+    .aboutDatiles .nav-list{
+        flex-direction: initial
+        ;
+    }
+    .aboutDatiles li{
+        margin: 0 2rem;
+    }
+    .about .container{
+        flex-direction: column;
+    }
+    .portfolio-img{
+        margin:  0 0 4rem 0;
+        order: 1;
+    }
+    .portfolio-item{
+        flex-direction: column;
+    }.portfolio-dec{
+        margin: 0;
+        order: 2;
+    }
 }
